@@ -113,6 +113,27 @@ export default function LiveTracking({ onNavigate }: LiveTrackingProps) {
           </div>
         </div>
 
+        <div className="bg-surface p-8 rounded-lg shadow-[0_20px_40px_rgba(0,97,164,0.04)] border border-outline-variant/10">
+          <h3 className="font-headline font-bold text-xl text-on-surface mb-6 text-left">Order Details</h3>
+          <div className="space-y-4">
+            <div className="flex justify-between items-center">
+              <span className="text-sm text-on-surface-variant">Order ID</span>
+              <span className="font-bold text-on-surface">#WM-8291</span>
+            </div>
+            <div className="flex justify-between items-start">
+              <span className="text-sm text-on-surface-variant">Items</span>
+              <div className="text-right">
+                <p className="text-sm font-bold text-on-surface">3x Laundry Bags</p>
+                <p className="text-xs text-on-surface-variant">Standard Wash & Fold</p>
+              </div>
+            </div>
+            <div className="pt-4 border-t border-outline-variant/10 flex justify-between items-center">
+              <span className="font-bold text-on-surface">Total Cost</span>
+              <span className="text-xl font-black text-primary">$27.50</span>
+            </div>
+          </div>
+        </div>
+
         <div className="bg-outline-variant/5 p-6 rounded-lg flex items-center justify-between border border-outline-variant/10">
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center shadow-sm">
